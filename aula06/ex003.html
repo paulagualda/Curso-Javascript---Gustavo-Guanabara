@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Porgrama</title>
+    <style>
+        body  { 
+            background-color: rgb(190, 190, 238);
+            color: cornsilk;
+            font: normal 20pt Arial;
+            
+        }
+    </style>
+</head>
+<body>
+   <h1>Olá Mundo!</h1>
+   <p>Já me livrei da maldição!</p>
+   <script>
+      var n1 = Number(window.prompt('Digite um número:')) //String
+      var n2 = Number(window.prompt('Digite outro número:')) //string
+      var s = n1 + n2
+     // window.alert(' A soma dos valores é ' + String(s)) // aqui foi usado como concatenação
+      /* (number + number) para adição
+      (string + string) para concatenação 
+       o window.prompt retorna sempre uma string, mesmo que você digite um número*/ 
+   
+       window.alert(`A soma dos valores ${n1} e ${n2} é igual a ${s}: `) 
+       // foi usado template string
+   </script>
+
+</body>
+</html>
